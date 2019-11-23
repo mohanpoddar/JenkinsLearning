@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing my first application server for  Piyush....'
+                echo 'Testing my first application server for  Piyush......'
             }
         }
         stage('Deploy') {
