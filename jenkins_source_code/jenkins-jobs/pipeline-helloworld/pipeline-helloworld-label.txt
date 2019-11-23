@@ -1,0 +1,16 @@
+pipeline {
+    agent {
+        node {
+            label 'master'
+            customWorkspace '/var/lib/jenkins/customspace'
+        }
+   }
+
+   stages {
+      stage('Hello') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+   }
+}
